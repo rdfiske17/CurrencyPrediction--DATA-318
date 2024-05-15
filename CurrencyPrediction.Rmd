@@ -40,7 +40,7 @@ Using Foreign Exchange rates relative to the US Dollar, this project sought to c
 
 ## Data Input and Cleaning
 ```{r}
-Forex_DF <- read.csv("https://raw.githubusercontent.com/rdfiske17/DATA-318/main/Datasets/eurofxref-hist.csv",stringsAsFactors=TRUE)
+Forex_DF <- read.csv("eurofxref-hist.csv",stringsAsFactors=TRUE)
 #https://data.humdata.org/dataset/ecb-fx-rates?force_layout=desktop
 #List of Currency Names: https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html
 #UPDATED: use https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.zip to download file manually as it cannot be dynamically pulled anymore
